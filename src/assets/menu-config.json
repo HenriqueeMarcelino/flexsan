@@ -1,0 +1,17 @@
+{
+    "menu": [
+      {
+        "title": "Dashboard",
+        "icon": "dashboard",
+        "route": "dashboard",
+        "component": "GenericComponent"
+      },
+      {
+        "title": "Cadastro de Empresas",
+        "icon": "business",
+        "route": "cadastro-empresa",
+        "component": "GenericComponent"
+      }
+    ]
+  }
+  

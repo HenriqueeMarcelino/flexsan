@@ -1,0 +1,51 @@
+{
+  "routes": [
+    {
+      "path": "",
+      "redirectTo": "dashboard",
+      "pathMatch": "full"
+    },
+    {
+      "path": "dashboard",
+      "title": "Dashboard",
+      "icon": "dashboard",
+      "loadComponent": "DashboardComponent",
+      "type": "specific"
+    },
+    {
+      "path": "usuarios",
+      "title": "Usuários",
+      "icon": "people",
+      "loadComponent": "UsuariosComponent",
+      "type": "specific"
+    },
+    {
+      "path": "configuracoes",
+      "title": "Configurações",
+      "icon": "settings",
+      "loadComponent": "ConfiguracoesComponent",
+      "type": "specific"
+    },
+    {
+      "path": "cadastro/feriado",
+      "title": "Cadastro de Feriado",
+      "icon": "calendar_today",
+      "formId": "cadastro-de-feriado",
+      "type": "generic"
+    },
+    {
+      "path": "cadastro/hidrometro",
+      "title": "Cadastro de Hidrômetro",
+      "icon": "water_drop",
+      "formId": "cadastro-de-hidrometro",
+      "type": "generic"
+    },
+    {
+      "path": "cadastro/medidor",
+      "title": "Cadastro de Modelo de Medidor",
+      "icon": "speed",
+      "formId": "cadastro-de-modelo-de-medidor",
+      "type": "generic"
+    }
+  ]
+}
